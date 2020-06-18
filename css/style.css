@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 20px;
+}
+
+body{
+	background: url(../nat31.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.container{
+	
+	margin: 0 auto;
+	padding: 0 3rem;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+img{
+	height: 250px;
+	width: 200px;
+	border-radius: 80px;
+}
+
+h1{
+	color: blue;
+	font-size: 2.5rem;
+	font-weight: 700;
+	letter-spacing: 6px;
+}
+
+h2{
+	color: grey;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.image{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+}
+
+p{
+	font-size: .8rem;
+	color: black;
+	margin-bottom: .5rem;
+}
+
+.btn{
+	display: inline-block;
+	padding: .7rem .5rem;
+	background: #f6f6f6;
+	font-size: .8rem;
+	text-decoration: none;
+	color: blue;
+	border-radius: 10px;
+	transition: background 0.5s;
+}
+
+.btn:hover{
+	color: #398f51;
+	background-color: #dadada;
+	box-shadow: 0 0 5px skyblue, 0 0 30px skyblue, 0 0 60px skyblue;
+	transition-delay: .25s;
+}
+
+
+
+/***************************Responsive************************/
+ @media only screen and (max-width: 620px){
+ 	p{
+ 		color: black;
+ 	}
+ 	h2{
+ 		color: maroon;
+ 	}
+ }
+
+ @media only screen and (max-width: 320px){
+ 	p{
+ 		color: black;
+ 	}
+ 	h1{
+ 		font-size: 2.1rem;
+ 	}
+ 	h2{
+ 		font-size: 1.3rem;
+ 	}
+ }
+
+ @media only screen and (max-width: 290px){
+ 	p{
+ 		color: black;
+ 	}
+ 	h1{
+ 		font-size: 1.5rem;
+ 	}
+ 	h2{
+ 		font-size: 0.7rem;
+ 	}
+
+ 	img{
+ 		height: 200px;
+		width: 150px;
+ 	}
+ }
+
+/*************x**************Responsive************x************/
